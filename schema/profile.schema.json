@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DevOps profile",
+  "type": "object",
+  "required": ["person", "summary", "skills", "experience"],
+  "additionalProperties": false,
+  "properties": {
+    "person": {
+      "type": "object",
+      "required": ["name", "headline"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "headline": {"type": "string", "minLength": 1},
+        "location": {"type": "string"},
+        "linkedin": {"type": "string", "format": "uri"},
+        "github": {"type": "string", "format": "uri"},
+        "languages": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "summary": {"type": "string", "minLength": 20},
+    "highlights": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["value", "label"],
+        "additionalProperties": false,
+        "properties": {"value": {"type": "string"}, "label": {"type": "string"}}
+      }
+    },
+    "skills": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["category", "level", "items"],
+        "additionalProperties": false,
+        "properties": {
+          "category": {"type": "string"},
+          "level": {"type": "integer", "minimum": 1, "maximum": 5},
+          "items": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["period", "company", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "period": {"type": "string"},
+          "company": {"type": "string"},
+          "role": {"type": "string"},
+          "summary": {"type": "string"}
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "status"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string"},
+          "status": {"enum": ["earned", "in progress", "planned"]},
+          "year": {"type": "integer"}
+        }
+      }
+    }
+  }
+}

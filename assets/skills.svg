@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="448" viewBox="0 0 810 448" role="img" aria-label="Skill levels by category">
+<rect width="810" height="448" rx="14" fill="#1c1c24"/>
+<text x="24" y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Cloud (Azure)</text>
+<rect x="230" y="34" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="34" width="440" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Expert</text>
+<text x="24" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Infrastructure as Code</text>
+<rect x="230" y="74" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="74" width="440" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Expert</text>
+<text x="24" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Observability &amp; SRE</text>
+<rect x="230" y="114" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="114" width="440" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Expert</text>
+<text x="24" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Security &amp; Compliance</text>
+<rect x="230" y="154" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="154" width="440" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Expert</text>
+<text x="24" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Leadership</text>
+<rect x="230" y="194" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="194" width="440" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Expert</text>
+<text x="24" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">CI/CD</text>
+<rect x="230" y="234" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="234" width="352" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Advanced</text>
+<text x="24" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">FinOps</text>
+<rect x="230" y="274" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="274" width="352" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Advanced</text>
+<text x="24" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">AgenticOps</text>
+<rect x="230" y="314" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="314" width="352" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Advanced</text>
+<text x="24" y="368" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Networking &amp; DNS</text>
+<rect x="230" y="354" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="354" width="352" height="18" rx="9" fill="#3cc8ea"/>
+<text x="684" y="368" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Advanced</text>
+<text x="24" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#f4f4f7">Kubernetes</text>
+<rect x="230" y="394" width="440" height="18" rx="9" fill="#2e2e3a"/>
+<rect x="230" y="394" width="176" height="18" rx="9" fill="#7a5cc4"/>
+<text x="684" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#b9bccb">Learning</text>
+</svg>
